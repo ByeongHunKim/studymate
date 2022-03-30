@@ -2,6 +2,9 @@
 
 ## Hyperledger Fabric 1.4 LTS 
 
+
+---
+## Test Report
 ---
 ### First you need to check you stutus 1. docker container, 2. docker images and docker network
 ### for check your status,
@@ -12,7 +15,7 @@
 this is the clean status
 ![cleanStatus](./images/cleanStatus.PNG)
 
-### if u have some container, images or network plsease remove all
+### if u have some container, images or network please remove all
 1. `docker rm -f $(docker ps -aq)` 
 2. `docker rmi -f $(docker images dev-* -q)` 
 3. `docker network prune` and y
@@ -53,3 +56,19 @@ this is the clean status
 
 ### D. open ip OR localhost:8080 in the website
 
+![networkCommand](./images/networkCommand.PNG)
+![prototypeResult](./images/prototypeResult.PNG)
+
+
+---
+
+## Issue List
+
+---
+
+---
+
+## Release Note
+
+- add nodemon
+---
