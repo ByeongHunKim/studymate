@@ -40,7 +40,7 @@ async function cc_call(fn_name, args){
     const gateway = new Gateway();
     await gateway.connect(ccp, { wallet, identity: 'user1', discovery: { enabled: false } });
     const network = await gateway.getNetwork('mychannel');
-    const contract = network.getContract('teamate');
+    const contract = network.getContract('studymate');
 
     var result;
     
@@ -106,7 +106,7 @@ app.post('/mate/:email', async (req,res)=>{
     const gateway = new Gateway();
     await gateway.connect(ccp, { wallet, identity: 'user1', discovery: { enabled: false } });
     const network = await gateway.getNetwork('mychannel');
-    const contract = network.getContract('teamate');
+    const contract = network.getContract('studymate');
     const result = await contract.evaluateTransaction('readRating', email);
     const myobj = JSON.parse(result)
     res.status(200).json(myobj)
