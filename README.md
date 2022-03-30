@@ -60,15 +60,12 @@ this is the clean status
 ![prototypeResult](./images/prototypeResult.PNG)
 
 
----
-
 ## Issue List
-
----
 
 ---
 
 ## Release Note
 
 - add nodemon
+
 ---
