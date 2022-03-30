@@ -2,8 +2,11 @@
 
 ## Hyperledger Fabric 1.4 LTS 
 
-### pre-condition
+## pre-condition
+
 - `curl 7.68.0` , `docker 20.10.7` , `docker-compose 1.25.0` , `go 1.15.15` , `hyperledger fabric-docker images` , `hyperledger bineries cryptogen, configtxgen..` , `configured GOPATH`  
+
+---
 
 ## Test Report
 
