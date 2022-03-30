@@ -5,17 +5,17 @@
 ---
 ### First you need to check you stutus 1. docker container, 2. docker images and docker network
 ### for check your status,
-- 1. `docker ps -a`
-- 2. `docker images`
-- 3. `docker network ls`
+1. `docker ps -a`
+2. `docker images`
+3. `docker network ls`
 
 this is the clean status
-![cleanStatus]./images/cleanStatus.PNG
+![cleanStatus](./images/cleanStatus.PNG)
 
 ### if u have some container, images or network plsease remove all
-- 1. `docker rm -f $(docker ps -aq)` 
-- 2. `docker rmi -f $(docker images dev-* -q)` 
-- 3. `docker network prune` and y
+1. `docker rm -f $(docker ps -aq)` 
+2. `docker rmi -f $(docker images dev-* -q)` 
+3. `docker network prune` and y
 
 ---
 ### A. network 
