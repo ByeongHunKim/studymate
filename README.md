@@ -2,10 +2,8 @@
 
 ## Hyperledger Fabric 1.4 LTS 
 
-
----
 ## Test Report
----
+
 ### First you need to check you stutus 1. docker container, 2. docker images and docker network
 ### for check your status,
 1. `docker ps -a`
