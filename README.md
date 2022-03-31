@@ -1,4 +1,4 @@
-# studyMate
+# studymate
 
 ## Hyperledger Fabric 1.4 LTS 
 
