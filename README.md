@@ -101,6 +101,7 @@
 - 
 ---
 ## Issue List
+- port fowarding -> 22[ssh], 8080[prototype], 5984[couchdb] 
 - 
 ---
 
