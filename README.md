@@ -98,17 +98,23 @@
 ---
 
 ### E. ip OR localhost:5984 is couchDB
-- 
+---
+![db](./images/db.PNG)
+---
+
+### F. hyperledger-explorer
+---
+![explorerSuccess](./images/explorerSuccess.PNG)
 ---
 ## Issue List
-- port fowarding -> 22[ssh], 8080[prototype], 5984[couchdb] 
+- port fowarding -> 22[ssh], 3000[prototype], 8080[hyperledger-explorer], 5984[couchdb] 
 - 
 ---
 
 ## Update plan
 
 - add nodemon
-- connect with Hyperledger Explorer
+- connect with Hyperledger Explorer -------- success 0401 07:29 AM
 - refactoring using react
 
 
