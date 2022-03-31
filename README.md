@@ -9,7 +9,30 @@
 ---
 
 ## stack
-<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+
+### Blockchain
+![Hyperledger](https://img.shields.io/badge/hyperledger-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white)
+
+### Operating Sysyem
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+### Languages
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
+### Frameworks, Platforms and Libraries
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### Other 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 
 ## Test Report
 
@@ -19,9 +42,13 @@
 2. `docker images`
 3. `docker network ls`
 
-this is the clean status
+---
+
+### this is the clean status
+
 ![cleanStatus](./images/cleanStatus.PNG)
 
+---
 ### if u have some container, images or network please remove all
 1. `docker rm -f $(docker ps -aq)` 
 2. `docker rmi -f $(docker images dev-* -q)` 
@@ -56,8 +83,10 @@ this is the clean status
 - certification works
     - `node enrollAdmin.js`
     - `node registerUser.js`
-### server start
-    - `node server.js`
+---
+### Server start
+
+- `node server.js`
 
 ---
 
@@ -66,13 +95,20 @@ this is the clean status
 ![networkCommand](./images/networkCommand.PNG)
 ![prototypeResult](./images/prototypeResult.PNG)
 
-
-## Issue List
-
 ---
 
-## Release Note
+### E. ip OR localhost:5984 is couchDB
+- 
+---
+## Issue List
+- 
+---
+
+## Update plan
 
 - add nodemon
+- connect with Hyperledger Explorer
+- refactoring using react
+
 
 ---
