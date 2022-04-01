@@ -4,7 +4,7 @@
 
 ## pre-condition
 
-- `curl 7.68.0` , `docker 20.10.7` , `docker-compose 1.25.0` , `go 1.15.15` , `hyperledger fabric-docker images` , `hyperledger bineries cryptogen, configtxgen..` , `configured GOPATH`  
+- `curl 7.68.0` , `docker 20.10.7` , `docker-compose 1.25.0` , `go 1.15.15` , `hyperledger fabric-docker images` , `hyperledger bineries cryptogen, configtxgen..` , `configured GOPATH in bashrc`  
 
 ---
 
@@ -111,11 +111,12 @@
 - 
 ---
 
-## Update plan
+## Improvements
 
 - add nodemon
 - connect with Hyperledger Explorer -------- success 0401 07:29 AM
 - refactoring using react
+- add event "press Enter" 
 
 
 ---
